@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  font-style: helvetica;
+}
+
+/* remove me----------------------------- */
+/* .col,
+.row {
+  border: solid black;
+} */
+
+body {
+  background-color: #d6d6d6;
+}
+
+.container {
+  width: 75% !important;
+  margin-top: 50px;
+}
+.game-title {
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+}
+.yllw-box {
+  background-color: #ffd100;
+  border-radius: 30px;
+}
+
+.score-row {
+  line-height: 120px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.card-name {
+  background-color: #333533;
+  border-radius: 40px;
+  line-height: 360px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.card-row {
+  height: 400px;
+}
+.left-margin {
+  margin-left: 50px;
+}
+
+button {
+  border: #d5f2e3 solid;
+  border-radius: 40px !important;
+  margin-top: 10px !important;
+  width: 100%;
+  height: 175px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px !important;
+
+}
+.game-over-container{
+  text-align: center;
+  margin-top: 100px ;
+  background-color: #ffd100;
+  border-radius: 30px;
+  width: 75%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.game-over{
+  font-size: 70px;
+  padding-top: 20px;
+}
+.play-again{
+  margin-top: 50px !important;
+  height: 200px !important;
+  border-radius: 30px !important;
+  font-size: 50px;
+  background-color: #00b200;
+  width: 75%;
+  color: #d5f2e3;
+  border: #d5f2e3 solid;
+}
+.card-result-container{
+  margin-top: 130px;
+}
