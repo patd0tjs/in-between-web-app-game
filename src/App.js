@@ -79,7 +79,7 @@ class App extends Component {
     }
   };
   render() {
-    if (this.state.card1 == this.state.card2) {
+    if (this.state.card1 === this.state.card2) {
       return (
         <div className="background">
           <div className="container">
@@ -114,10 +114,13 @@ class App extends Component {
       return (
         <React.Fragment>
           <p className="game-over-container">
-          <h1 className="game-over">Game over your score is {this.state.score}</h1>
-          <button onClick={this.resetGame} className="play-again">Play Again</button>
+            <h1 className="game-over">
+              Game over your score is {this.state.score}
+            </h1>
+            <button onClick={this.resetGame} className="play-again">
+              Play Again
+            </button>
           </p>
-          
         </React.Fragment>
       );
     } else {
